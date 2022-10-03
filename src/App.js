@@ -7,6 +7,8 @@ function App() {
   return (
     <Cont>
       <Basic>Styled components</Basic>
+      <Basic para>Hello there</Basic>
+      <Basic name>Dont Click</Basic>
       <Btn type="button">Click</Btn>
     </Cont>
   );
