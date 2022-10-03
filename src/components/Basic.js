@@ -9,9 +9,9 @@ const Basic = styled.h1`
     props.para &&
     "20px"}; //checking for props passed in as para in Basic comp in App.js
 
-  color: ${(props) =>
-    props.name &&
-    "red"}; //checking for props passed in as name in Basic comp in App.js
+  color: ${({ name }) =>
+    name &&
+    "red"}; //the above can also be written as this here too checking for props passed in as name in Basic comp in App.js
 `;
 
 export default Basic;
