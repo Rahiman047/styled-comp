@@ -13,3 +13,9 @@ export const Btn = styled.button`
   border-width: 0px;
   text-transform: capitalize;
 `;
+
+export const AnotherBtn = styled(Btn)`
+  //here we can get all the props of Btn and we can change only certain values
+  color: white;
+  background-color: black;
+`;

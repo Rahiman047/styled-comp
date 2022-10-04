@@ -1,15 +1,15 @@
 import styled from "styled-components";
-import Basic from "./components/Basic";
-import { Btn } from "./components/Btn"; //named import from Btn.js
+//import Basic from "./components/Basic";
+//import { Btn, AnotherBtn } from "./components/Btn"; //named import from Btn.js
 import Cont from "./components/Cont";
+//import Button from "@mui/material/Button";
+import MainTitle from "./components/MainTitle";
 
 function App() {
   return (
     <Cont>
-      <Basic>Styled components</Basic>
-      <Basic para>Hello there</Basic>
-      <Basic name>Dont Click</Basic>
-      <Btn type="button">Click</Btn>
+      <MainTitle title="Hello there main" />
+      {/*passing the value of title to mainTitle component*/}
     </Cont>
   );
 }

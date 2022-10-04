@@ -12,6 +12,11 @@ const Basic = styled.h1`
   color: ${({ name }) =>
     name &&
     "red"}; //the above can also be written as this here too checking for props passed in as name in Basic comp in App.js
+  //we can use ternary condition as well like
+  /*color:${({ name }) =>
+    name
+      ? "red"
+      : "blue"} here we are checking if there is a prop called name if its there then we are giving it value red or else blue*/
 `;
 
 export default Basic;
